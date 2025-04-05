@@ -28,8 +28,8 @@
         <img class="logo-size" src="./images/logo-black.svg" alt="logo">
       </a>
       <address class="address">
-        <a class="header__link" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="header__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="address__link" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="address__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="address-text">наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
     </header>
@@ -48,27 +48,33 @@
       </section>
       <section class="lots">
         <h2 class="lots__title">Лоты</h2>
-        <ul class="lots__card-list">
-          <li>
-            <article class="lots__card-list-item card_type_film">
-              <div class="overlay"></div>
-              <a href="#" class="card__title">Фильм режиссёра, который бросил киношколу</a>
-              <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
-            </article>
+        <ul class="lots__cards-list">
+          <li class="lots__card-list-item">
+            <a class="card-link" href="#">
+              <article class="card card_type_film">
+                <div class="overlay"></div>
+                <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+                <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+              </article>
+            </a>
           </li>
-          <li>
-            <article class="lots__card-list-item card_type_book">
-              <div class="overlay"></div>
-              <a href="#" class="card__title">Книга, где описан один скучный день из жизни рекламного агента</a>
-              <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
-            </article>
+          <li class="lots__card-list-item">
+            <a class="card-link" href="#">
+              <article class="card card_type_book">
+                <div class="overlay"></div>
+                <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+              </article>
+            </a>
           </li>
-          <li>
-            <article class="lots__card-list-item card_type_picture">
-              <div class="overlay"></div>
-              <a href="#" class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</a>
-              <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
-            </article>
+          <li class="lots__card-list-item">
+            <a class="card-link" href="#">
+              <article class="card card_type_picture">
+                <div class="overlay"></div>
+                <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+              </article>
+            </a>
           </li>
         </ul>
         <a href="#" class="lots__look-more-link">посмотреть больше</a>
@@ -88,8 +94,8 @@
     </main>
     <footer class="footer">
       <address class="footer__address">
-        <a class="phone header__link" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="email header__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="address__link" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="address__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="address-text">наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
       <nav class="footer__menu">
@@ -108,19 +114,13 @@
       <div>
         <ul class="footer__social-list-items">
           <li class="footer__social-list-item">
-            <a class="footer__social-link header__link_active" href="#">
-              <img class="footer__social-icon" src="./images/yt.svg" alt="youtube">
-            </a>
+            <img class="footer__social-icon" src="./images/yt.svg" alt="youtube">
           </li>
           <li class="footer__social-list-item">
-            <a class="footer__social-link" href="#">
-              <img class="footer__social-icon" src="./images/vk.svg" alt="vkontakte">
-            </a>
+            <img class="footer__social-icon" src="./images/vk.svg" alt="vkontakte">
           </li>
           <li class="footer__social-list-item">
-            <a class="footer__social-link" href="#">
-              <img class="footer__social-icon" src="./images/pinterest.svg" alt="pinterest">
-            </a>
+            <img class="footer__social-icon" src="./images/pinterest.svg" alt="pinterest">
           </li>
         </ul>
       </div>
